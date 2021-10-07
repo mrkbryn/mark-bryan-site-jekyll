@@ -1,112 +1,75 @@
 ---
-layout: home
+layout: default
+title: Resume
 ---
 
 # Education
 
-## Cornell University, College of Engineering
+## Cornell University - College of Engineering
 
-* Ithaca, NY
-* May 2018
+Ithaca, NY | May 2018
 
-Bachelor's Degree, Computer Science
-Dyson Business Minor for Engineers
-College of Engineering Dean's List (5 nominations)
-
-![Cornell logo](/assets/cornell_logo.svg)
+* Bachelor's Degree, Computer Science
+** Graduated Cum Laude with Honors
+* Dyson Business Minor for Engineers
+* College of Engineering Dean's List (5 nominations)
 
 # Experience
 
-## Apple
-### Software Engineer
+## Apple - Software Engineer
 
-* New York, NY
-* October 2021 - Present
+New York, NY | Oct 2021 - Present
 
-Software engineer on the Apple Pay team.
+* Software engineer on the Apple Pay team.
 
-## Broadway Technology
-### Senior Software Consultant
+## Broadway Technology - Senior Software Consultant
 
-* New York, NY
-* Jul 2018 - September 2021
+New York, NY | Jul 2018 - Sep 2021
 
-Designing, building, and deploying mission-critical fintech software solutions to satisfy complex client requirements.
+* Designing, building, and deploying mission-critical fintech software solutions to satisfy complex client requirements.
+* Built backend services for client's expansion into margin trading and cryptocurrency loan offerings, encapsulating the business logic and risk management for these workflows into a backend API for downstream client integrations.
+* Implemented support for Immediate-Or-Cancel orders in matching engine service to enable client's expansion into new trading offerings, conducting performance testing to measure performance across benchmark workloads.
+* Improved quality and reliability of crypto exchange adaptors through critical bug fixes and enhancements.
+* Improved usability of Broadway's trading GUI applications with feature enhancements like saved user layout configuration and customizable pricing controls.
+* Led Python training course for Broadway's new-hire onboarding program, teaching basics of Python programming and how to develop Python services within Broadway's distributed platform.
 
-Built backend services for client's expansion into margin trading and cryptocurrency loan offerings, encapsulating the business logic and risk management for these workflows into a backend API for downstream client integrations.
+## Cornell Database Group - Research Assistant
 
-Implemented support for Immediate-Or-Cancel orders in matching engine service to enable client's expansion into new trading offerings, conducting performance testing to measure performance across benchmark workloads.
+Ithaca, NY | Jan 2017 - May 2018
 
-Improved quality and reliability of crypto exchange adaptors through critical bug fixes and enhancements.
+* Applied data mining algorithms to research efficient representation of relational and time series data through audio interfaces.
+* Collaborated with Professor Immanuel Trummer to develop a database system funded by a Google Faculty Research Award.
+* Built prototype database system written in Java which translates datasets into speech output using algorithms that minimize speaking time subject to user-defined precision constraints.
 
-Improved usability of Broadway's trading GUI applications with feature enhancements like saved user layout configuration and customizable pricing controls.
+## Cornell University Computer Science Dept. - Teaching Assistant, Database Systems
 
-Led Python training course for Broadway's new-hire onboarding program, teaching basics of Python programming and how to develop Python services within Broadway's distributed platform.
-
-![Broadway logo](/assets/bway_logo.png)
-
-## Cornell Database Group
-### Research Assistant
-
-* Ithaca, NY
-* Jan 2017 - May 2018
-
-Applied data mining algorithms to research efficient representation of relational and time series data through audio interfaces.
-
-Collaborated with Professor Immanuel Trummer to develop a database system funded by a Google Faculty Research Award.
-
-Built prototype database system written in Java which translates datasets into speech output using algorithms that minimize speaking time subject to user-defined precision constraints.
-
-![Cornell logo](/assets/cornell_logo.svg)
-
-## Cornell University Computer Science Dept.
-### Teaching Assistant, Database Systems
-
-* Ithaca, NY
-* Aug 2016 - May 2018
+Ithaca, NY | Aug 2016 - May 2018
 
 Conducted weekly office hours, create and update problem sets and solutions, and grade problem sets for Database Systems course.
 
 Developed automated grading scripts used by team of 20 teaching assistants to optimize grading processes.
 
-![Cornell logo](/assets/cornell_logo.svg)
+## Yelp - Software Engineer Intern
 
-# Yelp
-## Software Engineer Intern
+San Francisco, CA | May 2017 - Aug 2017
 
-* San Francisco, CA
-* May 2017 - Aug 2017
+* Improved data documentation service and data warehouse reporting as a member of Yelp's Consumer Analytics and Metrics team.
+* Developed backend infrastructure for collecting, cleaning, and analyzing usage data for Yelp's data warehouse and implemented frontend visualizations to describe and convey information to data warehouse administrators.
+* Provided insight into how Yelp engineers query the data warehouse, guiding decisions to improve system performance.
+* Redesigned React user interface for data documentation service in order to improve developer workflow.
+* Collaborated with engineers from a variety of teams in order to accomplish project goals.
 
-Improved data documentation service and data warehouse reporting as a member of Yelp's Consumer Analytics and Metrics team.
+## Toast - Software Engineer Intern
 
-Developed backend infrastructure for collecting, cleaning, and analyzing usage data for Yelp's data warehouse and implemented frontend visualizations to describe and convey information to data warehouse administrators.
+Boston, MA | Jun 2016 - Aug 2016
 
-Provided insight into how Yelp engineers query the data warehouse, guiding decisions to improve system performance.
-
-Redesigned React user interface for data documentation service in order to improve developer workflow.
-
-Collaborated with engineers from a variety of teams in order to accomplish project goals.
-
-![Yelp logo](/assets/yelp_logo.png)
-
-## Toast
-### Software Engineer Intern
-
-* Boston, MA
-* Jun 2016 - Aug 2016
-
-Improved database layer of Toast's core web application by refactoring the way developers write and release changes to data sources, increasing the reliability of deploying database schema migrations in both development and production environments and improving the efficiency of the engineering team.
-
-Presented new development workflow to engineering team and developed tooling and documentation to facilitate the adoption of the new schema migration process.
-
-![Toast logo](/assets/toast_logo.png)
+* Improved database layer of Toast's core web application by refactoring the way developers write and release changes to data sources, increasing the reliability of deploying database schema migrations in both development and production environments and improving the efficiency of the engineering team.
+* Presented new development workflow to engineering team and developed tooling and documentation to facilitate the adoption of the new schema migration process.
 
 # Skills
 
-* Python
-* Java
-* C++
-* JavaScript
-* C#
-* Database Systems
-* Distributed Systems
+<ul>
+{% for skill in site.data.skills %}
+  <li>{{ skill }}</li>
+{% endfor %}
+</ul>
