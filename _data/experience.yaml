@@ -1,0 +1,60 @@
+- name: Apple
+  title: Software Engineer
+  location: New York, NY
+  start_date: Oct 2021
+  end_date: Present
+  details:
+    - Member of the Apple Pay team.
+
+- name: Broadway Technology
+  title: Senior Software Consultant
+  location: New York, NY
+  start_date: Jul 2018
+  end_date: Sep 2021
+  details: 
+    - Designing, building, and deploying mission-critical fintech software solutions to satisfy complex client requirements.
+    - Built backend services for client's expansion into margin trading and cryptocurrency loan offerings, encapsulating the business logic and risk management for these workflows into a backend API for downstream client integrations.
+    - Implemented support for Immediate-Or-Cancel orders in matching engine service to enable client's expansion into new trading offerings, conducting performance testing to measure performance across benchmark workloads.
+    - Improved quality and reliability of crypto exchange adaptors through critical bug fixes and enhancements.
+    - Improved usability of Broadway's trading GUI applications with feature enhancements like saved user layout configuration and customizable pricing controls.
+    - Led Python training course for Broadway's new-hire onboarding program, teaching basics of Python programming and how to develop Python services within Broadway's distributed platform.
+
+- name: Cornell Database Group 
+  title: Research Assistant
+  location: Ithaca, NY
+  start_date: Jan 2017
+  end_date: May 2018
+  details:
+    - Applied data mining algorithms to research efficient representation of relational and time series data through audio interfaces.
+    - Collaborated with Professor Immanuel Trummer to develop a database system funded by a Google Faculty Research Award.
+    - Built prototype database system written in Java which translates datasets into speech output using algorithms that minimize speaking time subject to user-defined precision constraints.
+
+- name: Cornell University Computer Science Dept.
+  title: Teaching Assistant, Database Systems
+  location: Ithaca, NY 
+  start_date: Aug 2016
+  end_date: May 2018
+  details:
+    - Conducted weekly office hours, create and update problem sets and solutions, and grade problem sets for Database Systems course.
+    - Developed automated grading scripts used by team of 20 teaching assistants to optimize grading processes.
+
+- name: Yelp
+  title: Software Engineer Intern
+  location: San Francisco, CA
+  start_date: May 2017
+  end_date: Aug 2017
+  details: 
+    - Improved data documentation service and data warehouse reporting as a member of Yelp's Consumer Analytics and Metrics team.
+    - Developed backend infrastructure for collecting, cleaning, and analyzing usage data for Yelp's data warehouse and implemented frontend visualizations to describe and convey information to data warehouse administrators.
+    - Provided insight into how Yelp engineers query the data warehouse, guiding decisions to improve system performance.
+    - Redesigned React user interface for data documentation service in order to improve developer workflow.
+    - Collaborated with engineers from a variety of teams in order to accomplish project goals.
+
+- name: Toast
+  title: Software Engineer Intern
+  location: Boston, MA
+  start_date: Jun 2016
+  end_date: Aug 2016
+  details:
+    - Improved database layer of Toast's core web application by refactoring the way developers write and release changes to data sources, increasing the reliability of deploying database schema migrations in both development and production environments and improving the efficiency of the engineering team.
+    - Presented new development workflow to engineering team and developed tooling and documentation to facilitate the adoption of the new schema migration process.
