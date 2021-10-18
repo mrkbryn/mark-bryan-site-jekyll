@@ -3,51 +3,47 @@ layout: default
 title: Research
 ---
 
+<h2>Publications</h2>
 
-# Publications
+{% for publication in site.data.publications %}
+  <h3>{{ publication.title }}</h3>
+  <ul>
+    <li>Published: {{ publication.date }}</li>
+    <li>Publication: {{ publication.publication }}</li>
+    <li>Authors: {{ publication.authors | join: ", " }}</li>
+    <li>Read the paper <a href="{{ publication.url }}">here.</a></li>
+  </ul>
 
-## Data Vocalization: Optimizing Voice Output of Relational Data
+  <div>
+    <details>
+      <summary>Paper Abstract</summary>
+      <p>{{ publication.abstract }}</p>
+    </details>
+  </div>
+  <br>
+{% endfor %}
 
-* August 2017
-* Proceedings of the VLDB Endowment, Volume 10
-* [Read the paper](http://www.vldb.org/pvldb/vol10/p1574-trummer.pdf)
+<h2>Presentations</h2>
 
-Research on data visualization aims at finding the best way to present data via visual interfaces. We introduce the complementary problem of 'data vocalization.' Our goal is to present relational data in the most efficient way via voice output. This problem setting is motivated by emerging tools and devices (e.g., Google Home, Amazon Echo, Apple’s Siri, or voice-based SQL interfaces) that communicate data primarily via audio output to their users
+<h3>VLDB Conference</h3>
 
-## Vocalizing Large Time Series Efficiently
+* Munich, Germany
+* Sept 2017
+* Presented paper at annual research conference, 'Data Vocalization: Optimizing Voice Output of Relational Data.'
 
-* July 2018
-* Proceedings of the VLDB Endowment, Volume 11
-* [Read the paper](http://www.vldb.org/pvldb/vol11/p1563-trummer.pdf)
+<h2>Awards</h2>
 
-We vocalize query results for time series data. We describe a holistic approach that integrates query evaluation and vocalization. In particular, we generate only those parts of the query result that are relevant for voice output..."
+<h3>Outstanding Undergraduate Researcher Award (Honorable Mention)</h3>
 
-# Presentations
+* 2018
+* Received honorable mention for CRA's Outstanding Undergraduate Researcher Award, which recognizes undergraduate students in North American colleges and universities who show outstanding research potential in an area of computing research.
 
-## VLDB Conference
+<h3>JP Morgan Award</h3>
 
-Munich, Germany
+* Apr 2018
+* Received award at BOOM 2018, Cornell's annual showcase of student research and creativity in digital technology and applications.
 
-Sept 2017
+<h3>Lockheed Martin Award</h3>
 
-Presented paper at annual research conference, 'Data Vocalization: Optimizing Voice Output of Relational Data.'
-
-# Awards
-
-## Computing Research Association - Honorable Mention, Outstanding Undergraduate Researcher Award
-
-2018
-
-Received honorable mention for CRA's Outstanding Undergraduate Researcher Award, which recognizes undergraduate students in North American colleges and universities who show outstanding research potential in an area of computing research.
-
-## JP Morgan Award
-
-Apr 2018
-
-Received award at BOOM 2018, Cornell's annual showcase of student research and creativity in digital technology and applications.
-
-## Lockheed Martin Award
-
-Sept 2017
-
-Received award at BOOM 2017, Cornell's annual showcase of student research and creativity in digital technology and applications.
+* Sept 2017
+* Received award at BOOM 2017, Cornell's annual showcase of student research and creativity in digital technology and applications.
