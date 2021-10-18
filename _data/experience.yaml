@@ -4,14 +4,14 @@
   start_date: Oct 2021
   end_date: Present
   details:
-    - Member of the Apple Pay team.
+    - Member of Apple Pay Team.
 
 - name: Broadway Technology
   title: Senior Software Consultant
   location: New York, NY
   start_date: Jul 2018
   end_date: Sep 2021
-  details: 
+  details:
     - Designing, building, and deploying mission-critical fintech software solutions to satisfy complex client requirements.
     - Built backend services for client's expansion into margin trading and cryptocurrency loan offerings, encapsulating the business logic and risk management for these workflows into a backend API for downstream client integrations.
     - Implemented support for Immediate-Or-Cancel orders in matching engine service to enable client's expansion into new trading offerings, conducting performance testing to measure performance across benchmark workloads.
@@ -35,7 +35,7 @@
   start_date: Aug 2016
   end_date: May 2018
   details:
-    - Conducted weekly office hours, create and update problem sets and solutions, and grade problem sets for Database Systems course.
+    - Conducted weekly office hours, created and updated problem sets and solutions, and graded problem sets for Database Systems course.
     - Developed automated grading scripts used by team of 20 teaching assistants to optimize grading processes.
 
 - name: Yelp
@@ -43,7 +43,7 @@
   location: San Francisco, CA
   start_date: May 2017
   end_date: Aug 2017
-  details: 
+  details:
     - Improved data documentation service and data warehouse reporting as a member of Yelp's Consumer Analytics and Metrics team.
     - Developed backend infrastructure for collecting, cleaning, and analyzing usage data for Yelp's data warehouse and implemented frontend visualizations to describe and convey information to data warehouse administrators.
     - Provided insight into how Yelp engineers query the data warehouse, guiding decisions to improve system performance.
