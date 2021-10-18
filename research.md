@@ -12,7 +12,7 @@ permalink: /research/
     <li>Published: {{ publication.date }}</li>
     <li>Publication: {{ publication.publication }}</li>
     <li>Authors: {{ publication.authors | join: ", " }}</li>
-    <li>Read the paper <a href="{{ publication.url }}">here.</a></li>
+    <li>Read the paper <a href="{{ publication.url }}" target="_blank">here.</a></li>
   </ul>
 
   <div>
@@ -26,11 +26,11 @@ permalink: /research/
 
 <h2>Presentations</h2>
 
-<h3>VLDB Conference</h3>
-
-* Munich, Germany
-* Sept 2017
-* Presented paper at annual research conference, 'Data Vocalization: Optimizing Voice Output of Relational Data.'
+{% for presentation in site.data.presentations %}
+  <h3>{{ presentation.title }}</h3>
+  <h4>{{ presentation.location }}, {{ presentation.date }}</h4>
+  <p>{{ presentation.description }}</p>
+{% endfor %}
 
 <h2>Awards</h2>
 
