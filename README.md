@@ -5,4 +5,3 @@ This repo contains the site deployed to [markbryan.dev](https://markbryan.dev)
 ```
 ./start.sh
 ```
-
