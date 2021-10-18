@@ -18,3 +18,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
+
+exclude:
+  - README.md
+
