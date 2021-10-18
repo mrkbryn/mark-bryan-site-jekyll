@@ -34,17 +34,7 @@ permalink: /research/
 
 <h2>Awards</h2>
 
-<h3>Outstanding Undergraduate Researcher Award (Honorable Mention)</h3>
-
-* 2018
-* Received honorable mention for CRA's Outstanding Undergraduate Researcher Award, which recognizes undergraduate students in North American colleges and universities who show outstanding research potential in an area of computing research.
-
-<h3>JP Morgan Award</h3>
-
-* Apr 2018
-* Received award at BOOM 2018, Cornell's annual showcase of student research and creativity in digital technology and applications.
-
-<h3>Lockheed Martin Award</h3>
-
-* Sept 2017
-* Received award at BOOM 2017, Cornell's annual showcase of student research and creativity in digital technology and applications.
+{% for award in site.data.awards %}
+  <h3>{{ award.title }}, {{ award.date }}</h3>
+  <p>{{ award.description }}</p>
+{% endfor %}
