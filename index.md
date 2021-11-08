@@ -1,10 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-Thank you for visiting my site! You'll find my resume, research, and blog here.
-
-![Me](/assets/jumbo_mab.jpg)
+Thank you for visiting my site. You'll find my resume, research, and blog here.
