@@ -11,8 +11,6 @@ minima:
     github: mrkbryn
     linkedin: markandrewbryan
 
-ignore_theme_config: true
-
 # Build settings
 theme: minima
 
