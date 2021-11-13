@@ -1,0 +1,13 @@
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+code {
+    font-family: 'JetBrains Mono', monospace;
+}
