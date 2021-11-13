@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Migrating from Flask to Jekyll
+tags: jekyll
 ---
 
 Welcome to my new (and improved) site! Recently I migrated my site from a Flask backend to a Jekyll static-site-generator structure. I made this change for a few reasons.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Data Vocalization"
+tags: research
 ---
 
 It has been a few years since I participated in research in the domain of _Data Vocalization_. Although I have since graduated from Cornell and pursued a career in industry as a Software Engineer, I'm still inspired by the problems I investigated in this area and the potential this area of research has to change the way we interact with data. So, I wanted to take a moment to reflect on this work and hopefully provide an introduction to the field of data vocalization in hopes that others may be inspired to investigate this domain or start to think about how they interact with voice assistant technologies in a new way.
