@@ -21,19 +21,7 @@ permalink: /resume/
 <h2>Experience</h2>
 
 {% for experience in site.data.experience %}
-  <div>
-    <div style="float: left"><h3>{{ experience.name }}</h3></div>
-    <div style="float: right"><em>{{ experience.location }}</em> &bull; {{ experience.start_date }} - {{ experience.end_date }}</div>
-    <div style="clear:both;"></div>
-  </div>
-
-  <h4>{{ experience.title }}</h4>
-  
-  <ul>
-  {% for item in experience.details %}
-    <li>{{ item }}</li>
-  {% endfor %}
-  </ul>
+  {% include experience_partial.html data=experience %}
 {% endfor %}
 
 <h2>Skills</h2>
