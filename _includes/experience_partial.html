@@ -1,12 +1,9 @@
-<div>
-  <div style="float: left"><h3>{{ include.data.name }}</h3></div>
-  <div style="float: right"><em>{{ include.data.location }}</em> &bull; {{ include.data.start_date }} - {{ include.data.end_date }}</div>
-  <div style="clear:both;"></div>
-</div>
+<h3 class="experience-name"><b>{{ include.data.name }}</b></h3>
+<h4 class="experience-title">{{ include.data.title }}</h4>
+<p class="experience-subheading">{{ include.data.location }}</p>
+<p class="experience-subheading">{{ include.data.start_date }} - {{ include.data.end_date }}</p>
 
-<h4>{{ include.data.title }}</h4>
-
-<ul>
+<ul class="experience-details">
 {% for item in include.data.details %}
   <li>{{ item }}</li>
 {% endfor %}
