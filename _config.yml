@@ -6,7 +6,7 @@ description: >
   A portfolio and blog of my work.
 
 minima:
-  date_format: "%Y-%m-%d"
+  date_format: "%b %-d, %Y"
   social_links:
     github: mrkbryn
     linkedin: markandrewbryan
