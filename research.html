@@ -5,23 +5,8 @@ permalink: /research/
 ---
 
 <h2>Publications</h2>
-
 {% for publication in site.data.publications %}
-  <h3>{{ publication.title }}</h3>
-  <ul>
-    <li>Published: {{ publication.date }}</li>
-    <li>Publication: {{ publication.publication }}</li>
-    <li>Authors: {{ publication.authors | join: ", " }}</li>
-    <li>Read the paper <a href="{{ publication.url }}" target="_blank">here.</a></li>
-  </ul>
-
-  <div>
-    <details>
-      <summary>Paper Abstract</summary>
-      <p>{{ publication.abstract }}</p>
-    </details>
-  </div>
-  <br>
+  {% include publication_partial.html data=publication %}
 {% endfor %}
 
 <h2>Presentations</h2>

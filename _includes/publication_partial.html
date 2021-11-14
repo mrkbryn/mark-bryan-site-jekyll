@@ -1,0 +1,15 @@
+<h3>{{ include.data.title }}</h3>
+<ul>
+  <li>Published: {{ include.data.date }}</li>
+  <li>Publication: {{ include.data.publication }}</li>
+  <li>Authors: {{ include.data.authors | join: ", " }}</li>
+  <li>Read the paper <a href="{{ include.data.url }}" target="_blank">here.</a></li>
+</ul>
+
+<div>
+  <details>
+    <summary>Paper Abstract</summary>
+    <p>{{ include.data.abstract }}</p>
+  </details>
+</div>
+<br>
